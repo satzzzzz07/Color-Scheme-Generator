@@ -1,0 +1,120 @@
+* {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+/* NAVIGATION BAR */
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+nav img {
+  cursor: pointer;
+}
+
+/* ===== Section 1 ====== */
+hr {
+  margin: 0;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.tool-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+}
+
+.tool-container input,
+.tool-container select {
+  margin: 0 1em;
+  height: 2em;
+}
+
+#color-picker {
+  border: 1px solid #d1d5db;
+}
+
+#scheme {
+  width: 315px;
+  border-radius: 0.3em;
+  font-family: inherit;
+  font-size: inherit;
+  /* padding: 0.3em; */
+}
+
+#submit {
+  font-size: 0.75rem;
+  padding: 0.7em 1em;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 0.3em;
+}
+
+/* ======== COLOR CONTAINER============= */
+
+.color-container,
+.color-display {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-container * {
+  width: 16.67%;
+  height: 560px;
+}
+
+.color-display * {
+  width: 16.67%;
+  text-align: center;
+  margin: 0.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Default PAGE Colors */
+#c1 {
+  background-color: #f55a5a;
+}
+
+#c2 {
+  background-color: #2b283a;
+}
+
+#c3 {
+  background-color: #fbf3ab;
+}
+
+#c4 {
+  background-color: #aad1b6;
+}
+
+#c5 {
+  background-color: #a626d3;
+}
+
+#c6 {
+  background-color: #ffb6c1;
+}
